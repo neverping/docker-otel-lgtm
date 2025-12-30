@@ -1,11 +1,11 @@
 # renovate: datasource=github-releases depName=grafana packageName=grafana/grafana
-ARG GRAFANA_VERSION=v12.2.1
+ARG GRAFANA_VERSION=v12.3.0
 # renovate: datasource=github-releases depName=prometheus packageName=prometheus/prometheus
-ARG PROMETHEUS_VERSION=v3.7.3
+ARG PROMETHEUS_VERSION=v3.8.0
 # renovate: datasource=github-releases depName=tempo packageName=grafana/tempo
 ARG TEMPO_VERSION=v2.9.0
 # renovate: datasource=github-releases depName=loki packageName=grafana/loki
-ARG LOKI_VERSION=v3.5.8
+ARG LOKI_VERSION=v3.6.2
 # renovate: datasource=github-releases depName=pyroscope packageName=grafana/pyroscope
 ARG PYROSCOPE_VERSION=v1.16.0
 # renovate: datasource=github-releases depName=opentelemetry-collector packageName=open-telemetry/opentelemetry-collector-releases
@@ -119,6 +119,7 @@ LABEL org.opencontainers.image.authors="Grafana Labs"
 LABEL org.opencontainers.image.documentation="https://github.com/grafana/docker-otel-lgtm/blob/main/README.md"
 LABEL org.opencontainers.image.vendor="Grafana Labs"
 LABEL org.opencontainers.image.title="Grafana OpenTelemetry LGTM"
+LABEL org.opencontainers.image.source="https://github.com/grafana/docker-otel-lgtm"
 LABEL summary="An OpenTelemetry backend in a Docker image"
 LABEL url="https://github.com/grafana/docker-otel-lgtm"
 LABEL vendor="Grafana Labs"
